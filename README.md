@@ -1,17 +1,17 @@
-PROJETO P2 — SISTEMA DE MONITORAMENTO E CONTROLE DE ACESSOS
+#PROJETO P2 — SISTEMA DE MONITORAMENTO E CONTROLE DE ACESSOS
 
-Como executar
+##Como executar
 Extraia o ZIP, abra a pasta no VS Code e, no terminal, execute:
     py .\Projeto_P2_LPII\Projeto_P2\sistema.py
 Se seu computador usa o comando python ou python3, substitua py.
 O projeto usa apenas a biblioteca padrão do Python 3.
 
-Cliente e servidor
+##Cliente e servidor
 Escolha a opção 7. O sistema inicia o servidor no próprio computador
 (127.0.0.1), conecta o cliente, envia uma mensagem e mostra a resposta.
 As duas pontas usam sockets TCP. Basta um terminal.
 
-Roteiro para a apresentação
+##Roteiro para a apresentação
 1. Escolha 6 antes do primeiro login para demonstrar o tratamento de
    arquivo ausente, em uma pasta sem acessos.txt.
 2. Use 1 para criar Admin como administrador e Ana como usuária comum.
@@ -30,7 +30,7 @@ Roteiro para a apresentação
    de is. Use 7 para mostrar a mensagem e a resposta.
 8. Digite uma opção inexistente. Depois use 0 para sair.
 
-Para explicar o código
+##Para explicar o código
 - usuarios é um dicionário. A chave é o nome normalizado e o valor é o
   objeto Usuario ou Administrador.
 - Administrador herda o login e redefine permissao().

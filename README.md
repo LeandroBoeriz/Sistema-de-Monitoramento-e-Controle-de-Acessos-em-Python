@@ -2,7 +2,7 @@ PROJETO P2 — SISTEMA DE MONITORAMENTO E CONTROLE DE ACESSOS
 
 Como executar
 Extraia o ZIP, abra a pasta no VS Code e, no terminal, execute:
-    py sistema.py
+    py .\Projeto_P2_LPII\Projeto_P2\sistema.py
 Se seu computador usa o comando python ou python3, substitua py.
 O projeto usa apenas a biblioteca padrão do Python 3.
 
